@@ -28,3 +28,4 @@ namespace :db do
   task :graph do 
   RailsERD::Diagram::Graphviz.create
 end
+end
