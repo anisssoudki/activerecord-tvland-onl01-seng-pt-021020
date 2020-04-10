@@ -26,5 +26,5 @@ namespace :db do
   
   desc "graphviz"
   task :graph do 
-    
+    RailsERD::Diagram::Graphviz.create
 end
