@@ -23,4 +23,8 @@ namespace :db do
   task :console do
     Pry.start
   end
+  
+  desc "graphviz"
+  task :graph do 
+    
 end
